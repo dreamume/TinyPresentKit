@@ -1,0 +1,19 @@
+{
+  "name": "TinyPresentKit",
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT"
+  },
+  "summary": "A simple framework for showing modal view or view controller",
+  "authors": "dreamume",
+  "homepage": "https://github.com/dreamume/TinyPresentKit",
+  "source": {
+    "git": "https://github.com/dreamume/TinyPresentKit.git",
+    "branch": "master"
+  },
+  "swift_version": "4.2",
+  "source_files": "TinyPresentKit/*.{swift,h}",
+  "platforms": {
+    "ios": "8.0"
+  }
+}

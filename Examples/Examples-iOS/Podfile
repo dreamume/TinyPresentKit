@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+inhibit_all_warnings!
+
+workspace 'TinyPresentKitExamples'
+
+target 'TinyPresentKitExamples' do
+    platform :ios, '8.0'
+    pod 'TinyPresentKit', :path => '~/code/swift/TinyPresentKit'
+    pod 'SnapKit', '~> 4.0.0'
+end
