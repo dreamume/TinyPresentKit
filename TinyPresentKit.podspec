@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
 #  s.source   = { :git => 'https://github.com/dreamume/TinyPresentKit.git', :branch => "master" }
   s.swift_version = '4.2'
   s.source_files = 'TinyPresentKit/*.{swift,h}'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 end
