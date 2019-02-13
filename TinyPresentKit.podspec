@@ -1,12 +1,18 @@
-Pod::Spec.new do |s|
-  s.name     = 'TinyPresentKit'
-  s.version  = '1.0.1'
-  s.license  = { :type => 'MIT' }
-  s.summary  = 'A simple framework for showing modal view controller'
-  s.authors  = 'dreamume'
-  s.homepage = "https://github.com/dreamume/TinyPresentKit"
-  s.source   = { :git => 'https://github.com/dreamume/TinyPresentKit.git', :tag => s.version.to_s }
-  s.swift_version = '4.2'
-  s.source_files = 'TinyPresentKit/*.{swift,h}'
-  s.ios.deployment_target = '9.0'
+# coding: utf-8
+Pod::Spec.new do |spec|
+
+  spec.name         = "TinyPresentKit"
+  spec.version      = "1.0.1"
+  spec.summary      = "A simple framework for showing modal view controller"
+  spec.description  = "A simple framework for showing modal view controller"
+  spec.homepage     = "https://github.com/dreamume/TinyPresentKit"
+  spec.license      = { :type => 'MIT' }
+  spec.author       = { "dreamume" => "dreamume@gmail.com" }
+  spec.platform     = :ios, "9.0"
+  spec.source       = { :git => "https://github.com/dreamume/TinyPresentKit.git", :tag => "#{spec.version}" }
+  spec.source_files = "TinyPresentKit/*.{swift,h}"
+  spec.requires_arc = true
+  spec.swift_version = "4.2"
+  spec.ios.frameworks = "UIKit", "Foundation"
+
 end
