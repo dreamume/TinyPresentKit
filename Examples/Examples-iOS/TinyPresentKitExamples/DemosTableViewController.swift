@@ -61,7 +61,7 @@ class DemosTableViewController: UITableViewController {
             config.direction = .left
             config.presentLength = 192
             controller.presentationConfig = config
-            controller.runModal();
+            controller.tp_runModal();
         case 1:
             let controller: UIViewController = UIStoryboard(
                 name: "Main", 
@@ -71,7 +71,7 @@ class DemosTableViewController: UITableViewController {
             config.direction = .top
             config.presentLength = 340
             controller.presentationConfig = config
-            controller.runModal();
+            controller.tp_runModal();
         case 2:
             let controller: UIViewController = UIStoryboard(
                 name: "Main", 
@@ -81,7 +81,7 @@ class DemosTableViewController: UITableViewController {
             config.direction = .right
             config.presentLength = 240
             controller.presentationConfig = config
-            controller.runModal();
+            controller.tp_runModal();
         case 3:
             var displayData = DisplayModel<String>()
             displayData.value = "86"
@@ -90,7 +90,7 @@ class DemosTableViewController: UITableViewController {
             displayData.validDisplayValues = ["China", "USA", "France", "Britain", "Germany"]
             let vc = PickerViewController<String>(displayData)
             vc.title = "Country Code"
-            vc.runModal()
+            vc.tp_runModal()
         default:
             break
         }

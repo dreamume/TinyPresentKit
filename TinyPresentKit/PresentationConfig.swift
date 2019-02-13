@@ -78,7 +78,7 @@ extension UIViewController {
         }
     }
 
-    public func runModal() {
+    public func tp_runModal() {
         let window = UIWindow(frame: UIScreen.main.bounds)
         let controller = UIViewController()
 
